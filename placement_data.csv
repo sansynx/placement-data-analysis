@@ -1,0 +1,11 @@
+Student_ID,Name,Department,Company,Salary_LPA,Placed
+101,Rahul,CSE,TCS,6,Yes
+102,Priya,ECE,Infosys,5,Yes
+103,Arjun,CSE,Amazon,18,Yes
+104,Meena,ME,None,0,No
+105,Kiran,CSE,Accenture,7,Yes
+106,Riya,ECE,Wipro,4.5,Yes
+107,Vikram,ME,None,0,No
+108,Asha,CSE,Google,25,Yes
+109,Deepak,CIVIL,None,0,No
+110,Sneha,ECE,TCS,6,Yes
