@@ -1,11 +1,51 @@
-Student_ID,Name,Department,Company,Salary_LPA,Placed
-101,Rahul,CSE,TCS,6,Yes
-102,Priya,ECE,Infosys,5,Yes
-103,Arjun,CSE,Amazon,18,Yes
-104,Meena,ME,None,0,No
-105,Kiran,CSE,Accenture,7,Yes
-106,Riya,ECE,Wipro,4.5,Yes
-107,Vikram,ME,None,0,No
-108,Asha,CSE,Google,25,Yes
-109,Deepak,CIVIL,None,0,No
-110,Sneha,ECE,TCS,6,Yes
+Student_ID,Name,Department,Company,Salary_LPA,Placed,CGPA,Gender,Internship,Skills
+101,Rahul,CSE,TCS,6,Yes,7.8,Male,Yes,Python
+102,Priya,ECE,Infosys,5,Yes,7.2,Female,No,VLSI
+103,Arjun,CSE,Amazon,18,Yes,9.1,Male,Yes,DSA
+104,Meena,ME,None,0,No,6.5,Female,No,CAD
+105,Kiran,CSE,Accenture,7,Yes,7.5,Male,Yes,Java
+106,Riya,ECE,Wipro,4.5,Yes,6.9,Female,Yes,Embedded
+107,Vikram,ME,None,0,No,5.8,Male,No,AutoCAD
+108,Asha,CSE,Google,25,Yes,9.6,Female,Yes,ML
+109,Deepak,CIVIL,None,0,No,6.1,Male,No,AutoCAD
+110,Sneha,ECE,TCS,6,Yes,7.4,Female,Yes,Signal Processing
+111,Rohan,CSE,Microsoft,22,Yes,9.3,Male,Yes,Cloud
+112,Divya,IT,Cognizant,5.5,Yes,7.6,Female,Yes,Web Dev
+113,Anil,ME,L&T,4,Yes,6.8,Male,Yes,Mechanical Design
+114,Pooja,CSE,Flipkart,12,Yes,8.7,Female,Yes,Python
+115,Suresh,CIVIL,None,0,No,5.5,Male,No,Surveying
+116,Nisha,IT,HCL,4.5,Yes,7.0,Female,No,Testing
+117,Manoj,ECE,Qualcomm,14,Yes,8.9,Male,Yes,VLSI
+118,Kavya,CSE,Adobe,16,Yes,9.0,Female,Yes,UI/UX
+119,Ravi,ME,Bosch,6,Yes,7.3,Male,Yes,Robotics
+120,Lakshmi,IT,IBM,7,Yes,7.8,Female,Yes,Data Analytics
+121,Sanjay,CSE,Uber,13,Yes,8.5,Male,Yes,Backend
+122,Tanya,ECE,Samsung,9,Yes,8.2,Female,Yes,IoT
+123,Harish,CIVIL,Larsen,5,Yes,7.1,Male,Yes,Structural
+124,Preethi,CSE,Zoho,8,Yes,8.0,Female,Yes,Full Stack
+125,Karthik,IT,Capgemini,6,Yes,7.4,Male,No,ERP
+126,Bhavna,ME,None,0,No,5.9,Female,No,Thermodynamics
+127,Nikhil,CSE,PayPal,11,Yes,8.6,Male,Yes,Finance Tech
+128,Swathi,ECE,Texas Instruments,10,Yes,8.4,Female,Yes,Analog Design
+129,Ganesh,CIVIL,None,0,No,5.3,Male,No,Estimation
+130,Ananya,CSE,Razorpay,10,Yes,8.8,Female,Yes,Python
+131,Vivek,IT,Mphasis,5,Yes,7.2,Male,Yes,Cloud
+132,Shruti,ECE,Motorola,7.5,Yes,7.9,Female,Yes,RF Design
+133,Prasad,ME,Tata Motors,5.5,Yes,7.0,Male,Yes,Manufacturing
+134,Meghna,CSE,Infosys,6,Yes,7.6,Female,No,Java
+135,Aakash,CIVIL,None,0,No,5.7,Male,No,Planning
+136,Rekha,IT,Wipro,5,Yes,7.3,Female,Yes,Testing
+137,Sunil,CSE,Oracle,9,Yes,8.3,Male,Yes,Database
+138,Pallavi,ECE,Honeywell,8,Yes,8.1,Female,Yes,Control Systems
+139,Dinesh,ME,None,0,No,6.0,Male,No,Fluid Mechanics
+140,Varsha,CSE,Myntra,7,Yes,7.9,Female,Yes,ML
+141,Ajay,IT,TCS,5.5,Yes,7.1,Male,No,Networking
+142,Keerthi,ECE,Ericsson,8.5,Yes,8.3,Female,Yes,Telecom
+143,Mohan,CIVIL,AECOM,6,Yes,7.5,Male,Yes,Infrastructure
+144,Ishaan,CSE,Swiggy,9,Yes,8.4,Male,Yes,Backend
+145,Nandini,IT,Accenture,6.5,Yes,7.7,Female,Yes,Business Analysis
+146,Tarun,ME,Mahindra,5,Yes,6.9,Male,Yes,Product Design
+147,Shalini,CSE,Juspay,8,Yes,8.2,Female,Yes,Fintech
+148,Abhishek,ECE,Nvidia,20,Yes,9.2,Male,Yes,GPU Architecture
+149,Chitra,CIVIL,None,0,No,5.4,Female,No,Drafting
+150,Yash,CSE,Atlassian,15,Yes,9.0,Male,Yes,DevOps
