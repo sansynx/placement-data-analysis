@@ -53,7 +53,10 @@ highest_sal  = placed["Salary_LPA"].max()
 avg_sal      = round(placed["Salary_LPA"].mean(), 2)
 median_sal   = placed["Salary_LPA"].median()
 top_company  = placed["Company"].value_counts().idxmax()
-top_dept     = (placed.groupby("Department").size() / data.groupby("Department").size() * 100).idxmax()
+dept_placement_pct = placed.groupby("Department").size() / data.groupby("Department").size() * 100
+top_dept_rate = dept_placement_pct.max()
+top_depts = dept_placement_pct[dept_placement_pct == top_dept_rate].index.tolist()
+top_dept = ", ".join(top_depts)
 
 print("=" * 55)
 print("       CAMPUS PLACEMENT ANALYSIS REPORT")
