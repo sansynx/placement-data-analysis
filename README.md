@@ -28,7 +28,7 @@ A Python-based data analysis project that explores student placement trends acro
 - **CGPA vs Salary** - scatter plot with trend line, color-coded by department
 - **Gender comparison** - placed vs not placed breakdown
 - **Internship impact** - how having an internship affects placement odds
-- **CGPA band analysis** - placement rate across score ranges (< 6, 6–7, 7–8, 8–9, 9–10)
+- **CGPA band analysis** - placement rate across score ranges (< 6, 6–<7, 7–<8, 8–<9, 9+)
 - **Console report** - formatted summary with department table and top 5 packages
 
 ---
@@ -61,7 +61,7 @@ File: `placement_data.csv` - 50 student records
 | Highest Salary | 25 LPA (Google) |
 | Average Salary | 9.05 LPA |
 | Median Salary | 7.0 LPA |
-| Best Placed Dept | CSE (100%) |
+| Best Placed Depts | CSE, ECE, IT (100%) |
 | Top Recruiter | TCS |
 
 ---

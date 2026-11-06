@@ -3,7 +3,6 @@ import matplotlib
 matplotlib.use("Agg")          # non-interactive backend — works without a display
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
-import matplotlib.patches as mpatches
 import numpy as np
 from matplotlib.ticker import FuncFormatter
 
@@ -193,7 +192,7 @@ plt.close(fig1)
 # ─────────────────────────────────────────────
 fig2 = plt.figure(figsize=(18, 12))
 fig2.patch.set_facecolor("#0f1117")
-fig2.suptitle("Deep Dive — Skills, CGPA & Gender Insights", fontsize=18,
+fig2.suptitle("Deep Dive — CGPA, Gender & Internship Insights", fontsize=18,
               fontweight="bold", color="#ffffff", y=0.98)
 
 gs2 = gridspec.GridSpec(2, 2, figure=fig2, hspace=0.45, wspace=0.35)
@@ -260,9 +259,9 @@ for bar in bars8:
 
 # ── 9. CGPA Band Analysis ─────────────────────
 ax9 = fig2.add_subplot(gs2[1, 1])
-bins_cgpa  = [0, 6, 7, 8, 9, 10]
-labels_cgpa = ["<6.0", "6–7", "7–8", "8–9", "9–10"]
-data["CGPA_Band"] = pd.cut(data["CGPA"], bins=bins_cgpa, labels=labels_cgpa)
+bins_cgpa  = [0, 6, 7, 8, 9, np.inf]
+labels_cgpa = ["<6.0", "6–<7", "7–<8", "8–<9", "9+"]
+data["CGPA_Band"] = pd.cut(data["CGPA"], bins=bins_cgpa, labels=labels_cgpa, right=False)
 band_total  = data.groupby("CGPA_Band", observed=True).size()
 band_placed = data[data["Placed"] == "Yes"].groupby("CGPA_Band", observed=True).size()
 band_rate   = (band_placed / band_total * 100).fillna(0).round(1)
